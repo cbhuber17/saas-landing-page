@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Swiper JS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Basic</title>
+  </head>
+
+  <body class="container">
+    <!-- ------------------------------------------------------------ Header ------------------- -->
+    <header class="header">
+      <!-- Logo -->
+      <a href="#" class="header__logo">
+        <!-- Logo Light -->
+        <img
+          loading="lazy"
+          class="logo-light"
+          src="images/header/logo-light.svg"
+          alt="Light version of logo"
+        />
+
+        <!-- Logo Dark -->
+        <img
+          loading="lazy"
+          class="logo-dark"
+          src="images/header/logo-dark.svg"
+          alt="dark version of logo"
+        />
+      </a>
+
+      <!-- Navigation -->
+      <nav class="header__nav">
+        <!-- Links -->
+        <ul class="header__nav--links">
+          <!-- li*8.header__nav--links__link>a[href="#"] -->
+          <li class="header__nav--links__link"><a href="#">Home</a></li>
+          <li class="header__nav--links__link"><a href="#">Features</a></li>
+          <li class="header__nav--links__link"><a href="#">About</a></li>
+          <li class="header__nav--links__link"><a href="#">Why</a></li>
+          <li class="header__nav--links__link"><a href="#">Team</a></li>
+          <li class="header__nav--links__link"><a href="#">Testimonials</a></li>
+          <li class="header__nav--links__link"><a href="#">Blog</a></li>
+          <li class="header__nav--links__link"><a href="#">Newsletter</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Menu -->
+      <div class="hamburger">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+      </div>
+    </header>
+
+    <!-- ------------------------------------------------------------ Hero ------------------- -->
+    <section class="hero">
+      <!-- Main Title -->
+      <h1 class="hero__title">
+        Basic - SaaS Landing Page
+        <div>Kickstart Your SaaS or App Site</div>
+      </h1>
+
+      <!-- Main Para -->
+      <p class="hero__para">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
+        magnam.
+      </p>
+
+      <!-- Link -->
+      <a href="#" class="hero__link">Get Started</a>
+
+      <!-- Image -->
+      <div class="hero__img">
+        <img
+          loading="lazy"
+          src="images/showcase/hero-img.png"
+          alt="The image of a laptop"
+        />
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ features ------------------- -->
+    <section class="features section__padding">
+      <!-- Title -->
+      <h2 class="features__title section__title">
+        <span>Clean and simple design,</span> Comes with everything you need to
+        get started
+      </h2>
+
+      <!-- Feature Cards -->
+      <div class="features__cards">
+        <!-- Card 1 -->
+        <div class="features__cards--card-1 features__card">
+          <!-- Icons -->
+          <div class="features__cards--card-1__icons features__card--icons">
+            <img
+              loading="lazy"
+              src="images/features/main-shape.svg"
+              alt="triangle with rounded corners"
+            />
+
+            <img
+              loading="lazy"
+              src="images/features/shape-1.svg"
+              alt="triangle with rounded corners"
+            />
+
+            <i class="fa-solid fa-crop"></i>
+          </div>
+
+          <!-- Title -->
+          <h3 class="features__cards--card-1__title features__card--title">
+            Clean
+          </h3>
+
+          <!-- Para -->
+          <p
+            class="features__cards--card-1__para features__card--para section__para"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+            inventore facere reiciendis
+          </p>
+
+          <!-- Link -->
+          <a
+            href="#"
+            class="features__cards--card-1__link features__card--link section__sub-link"
+            ><span>Learn More <i class="fa-solid fa-angle-right"></i></span
+          ></a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="features__cards--card-2 features__card">
+          <!-- Icons -->
+          <div class="features__cards--card-2__icons features__card--icons">
+            <img
+              loading="lazy"
+              src="images/features/main-shape.svg"
+              alt="triangle with rounded corners"
+            />
+
+            <img
+              loading="lazy"
+              src="images/features/shape-2.svg"
+              alt="triangle with rounded corners"
+            />
+
+            <i class="fa-solid fa-gear"></i>
+          </div>
+
+          <!-- Title -->
+          <h3 class="features__cards--card-2__title features__card--title">
+            Robust
+          </h3>
+
+          <!-- Para -->
+          <p
+            class="features__cards--card-2__para features__card--para section__para"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+            inventore facere reiciendis
+          </p>
+
+          <!-- Link -->
+          <a
+            href="#"
+            class="features__cards--card-2__link features__card--link section__sub-link"
+            ><span>Learn More <i class="fa-solid fa-angle-right"></i></span
+          ></a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="features__cards--card-3 features__card">
+          <!-- Icons -->
+          <div class="features__cards--card-3__icons features__card--icons">
+            <img
+              loading="lazy"
+              src="images/features/main-shape.svg"
+              alt="triangle with rounded corners"
+            />
+
+            <img
+              loading="lazy"
+              src="images/features/shape-3.svg"
+              alt="triangle with rounded corners"
+            />
+
+            <i class="fa-solid fa-bolt-lightning"></i>
+          </div>
+
+          <!-- Title -->
+          <h3 class="features__cards--card-3__title features__card--title">
+            Powerful
+          </h3>
+
+          <!-- Para -->
+          <p
+            class="features__cards--card-3__para features__card--para section__para"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+            inventore facere reiciendis
+          </p>
+
+          <!-- Link -->
+          <a
+            href="#"
+            class="features__cards--card-3__link features__card--link section__sub-link"
+            ><span>Learn More <i class="fa-solid fa-angle-right"></i></span
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ about ------------------- -->
+    <section class="about section__padding">
+      <!-- Part 1 -->
+      <div class="about__pt-1 about__pt">
+        <!-- Content -->
+        <div class="about__pt-1--content about__pt--content">
+          <!-- title -->
+          <h2
+            class="about__pt-1--content__title about__pt--content__title section__title"
+          >
+            <span>Quick & Easy</span> to use Templates
+          </h2>
+
+          <!-- Para -->
+          <p
+            class="about__pt-1--content__para about__pt--content__para section__para"
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A optio
+            architecto temporibus, quo atque nobis repellat in, provident
+            necessitatibus consectetur quos, modi voluptatem nam ex quaerat
+            totam. Earum minus sed ratione quidem quaerat, aperiam ut delectus
+            expedita nesciunt recusandae fugiat inventore sunt magni, beatae ea
+            quod modi totam et sequi.
+          </p>
+
+          <!-- Link -->
+          <a
+            href="#"
+            class="about__pt-1--content__link about__pt--content__link"
+            >Try it free</a
+          >
+        </div>
+
+        <!-- Image -->
+        <div class="about__pt-1--img about__pt--img">
+          <img loading="lazy" src="images/about/about-1.svg" alt="Template" />
+        </div>
+      </div>
+
+      <!-- Part 2 -->
+      <div class="about__pt-2 about__pt">
+        <!-- Image -->
+        <div class="about__pt-2--img about__pt--img">
+          <img loading="lazy" src="images/about/about-2.svg" alt="Template" />
+        </div>
+
+        <!-- Content -->
+        <div class="about__pt-2--content about__pt--content">
+          <!-- title -->
+          <h2
+            class="about__pt-2--content__title about__pt--content__title section__title"
+          >
+            <span>Modern design</span> with Essential Features
+          </h2>
+
+          <!-- Para -->
+          <p
+            class="about__pt-2--content__para about__pt--content__para section__para"
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A optio
+            architecto temporibus, quo atque nobis repellat in, provident
+            necessitatibus consectetur quos, modi voluptatem nam ex quaerat
+            totam. Earum minus sed ratione quidem quaerat, aperiam ut delectus
+            expedita nesciunt recusandae fugiat inventore sunt magni, beatae ea
+            quod modi totam et sequi.
+          </p>
+
+          <!-- Link -->
+          <a
+            href="#"
+            class="about__pt-2--content__link about__pt--content__link"
+            >Try it free</a
+          >
+        </div>
+      </div>
+
+      <!-- Part 3 -->
+      <div class="about__pt-3 about__pt">
+        <!-- Content -->
+        <div class="about__pt-3--content about__pt--content">
+          <!-- title -->
+          <h2
+            class="about__pt-3--content__title about__pt--content__title section__title"
+          >
+            Crafted for <span>SaaS, App and Software Landing Page</span>
+          </h2>
+
+          <!-- Para -->
+          <p
+            class="about__pt-3--content__para about__pt--content__para section__para"
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A optio
+            architecto temporibus, quo atque nobis repellat in, provident
+            necessitatibus consectetur quos, modi voluptatem nam ex quaerat
+            totam. Earum minus sed ratione quidem quaerat, aperiam ut delectus
+            expedita nesciunt recusandae fugiat inventore sunt magni, beatae ea
+            quod modi totam et sequi.
+          </p>
+
+          <!-- Link -->
+          <a
+            href="#"
+            class="about__pt-3--content__link about__pt--content__link"
+            >Try it free</a
+          >
+        </div>
+
+        <!-- Image -->
+        <div class="about__pt-3--img about__pt--img">
+          <img loading="lazy" src="images/about/about-3.svg" alt="Template" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ why ------------------- -->
+    <section class="why section__padding">
+      <!-- Images -->
+      <div class="why__img">
+        <img loading="lazy" src="images/why/img.png" alt="why choose us" />
+
+        <img loading="lazy" src="images/why/dots.svg" alt="dots" />
+      </div>
+
+      <!-- Content -->
+      <div class="why__content">
+        <!-- Title -->
+        <h2 class="why__content--title section__title">
+          <span>Cool facts</span> about this app
+        </h2>
+
+        <!-- Para -->
+        <p class="why__content--para section__para">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+          molestiae nostrum voluptatem iure dolorum
+        </p>
+
+        <!-- Facts -->
+        <div class="why__content--facts">
+          <div class="why__content--facts__fact">
+            <p>125K</p>
+            <p>Downloads</p>
+          </div>
+
+          <div class="why__content--facts__fact">
+            <p>87K</p>
+            <p>Users</p>
+          </div>
+
+          <div class="why__content--facts__fact">
+            <p>4.8</p>
+            <p>Rating</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ team ------------------- -->
+    <section class="team section__padding">
+      <!-- Title -->
+      <h2 class="team__title section__title">
+        Meet our <span>Creative Team Members</span>
+      </h2>
+
+      <!-- Team Members -->
+      <div class="team__members">
+        <!-- Team Member 1 -->
+        <div class="team__members--member">
+          <!-- Image -->
+          <div class="team__members--member__img">
+            <img
+              loading="lazy"
+              src="images/team/team-member-1.jpg"
+              alt="Team Member"
+            />
+          </div>
+
+          <!-- Social Icons -->
+          <div class="team__members--member__social">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+
+          <!-- Name -->
+          <h3 class="team__members--member__name">Alice Amana</h3>
+
+          <!-- Role -->
+          <p class="team__members--member__role section__para">
+            Founder and CEO
+          </p>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team__members--member">
+          <!-- Image -->
+          <div class="team__members--member__img">
+            <img
+              loading="lazy"
+              src="images/team/team-member-2.jpg"
+              alt="Team Member"
+            />
+          </div>
+
+          <!-- Social Icons -->
+          <div class="team__members--member__social">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+
+          <!-- Name -->
+          <h3 class="team__members--member__name">Benjamin Lionheart</h3>
+
+          <!-- Role -->
+          <p class="team__members--member__role section__para">
+            Sr. Software Engineer
+          </p>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team__members--member">
+          <!-- Image -->
+          <div class="team__members--member__img">
+            <img
+              loading="lazy"
+              src="images/team/team-member-3.jpg"
+              alt="Team Member"
+            />
+          </div>
+
+          <!-- Social Icons -->
+          <div class="team__members--member__social">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+
+          <!-- Name -->
+          <h3 class="team__members--member__name">Fiona Smith</h3>
+
+          <!-- Role -->
+          <p class="team__members--member__role section__para">
+            Business Development Manager
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ testimonials ------------------- -->
+    <section class="testimonials section__padding">
+      <!-- Title -->
+      <h2 class="testimonials__title section__title">
+        <span>Users sharing</span> their experience
+      </h2>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Testimonial 1 -->
+          <div class="testimonials__card swiper-slide">
+            <div class="testimonials__card--icons">
+              <!-- Quote -->
+              <i
+                class="testimonials__card--icons__quote fa-solid fa-quote-right"
+              ></i>
+
+              <!-- Stars -->
+              <div class="testimonials__card--icons__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <!-- Para -->
+            <p class="testimonials__card--para section__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolores molestias aut doloribus repellendus architecto tempore
+              mollitia et ipsa quasi?
+            </p>
+
+            <!-- Personal info -->
+            <div class="testimonials__card--personal-info">
+              <!-- Picture -->
+              <img
+                class="testimonials__card--personal-info__picture"
+                loading="lazy"
+                src="images/testimonials/woman-1.jpg"
+                alt="woman"
+              />
+
+              <!-- Name -->
+              <h4 class="testimonials__card--personal-info__name">Ann Jones</h4>
+
+              <!-- Role -->
+              <h5 class="testimonials__card--personal-info__role">CEO</h5>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonials__card swiper-slide">
+            <div class="testimonials__card--icons">
+              <!-- Quote -->
+              <i
+                class="testimonials__card--icons__quote fa-solid fa-quote-right"
+              ></i>
+
+              <!-- Stars -->
+              <div class="testimonials__card--icons__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <!-- Para -->
+            <p class="testimonials__card--para section__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolores molestias aut doloribus repellendus architecto tempore
+              mollitia et ipsa quasi?
+            </p>
+
+            <!-- Personal info -->
+            <div class="testimonials__card--personal-info">
+              <!-- Picture -->
+              <img
+                class="testimonials__card--personal-info__picture"
+                loading="lazy"
+                src="images/testimonials/man-1.jpg"
+                alt="man"
+              />
+
+              <!-- Name -->
+              <h4 class="testimonials__card--personal-info__name">
+                Terry Brown
+              </h4>
+
+              <!-- Role -->
+              <h5 class="testimonials__card--personal-info__role">CFO</h5>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonials__card swiper-slide">
+            <div class="testimonials__card--icons">
+              <!-- Quote -->
+              <i
+                class="testimonials__card--icons__quote fa-solid fa-quote-right"
+              ></i>
+
+              <!-- Stars -->
+              <div class="testimonials__card--icons__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <!-- Para -->
+            <p class="testimonials__card--para section__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolores molestias aut doloribus repellendus architecto tempore
+              mollitia et ipsa quasi?
+            </p>
+
+            <!-- Personal info -->
+            <div class="testimonials__card--personal-info">
+              <!-- Picture -->
+              <img
+                class="testimonials__card--personal-info__picture"
+                loading="lazy"
+                src="images/testimonials/woman-2.jpg"
+                alt="woman"
+              />
+
+              <!-- Name -->
+              <h4 class="testimonials__card--personal-info__name">
+                Megan Smith
+              </h4>
+
+              <!-- Role -->
+              <h5 class="testimonials__card--personal-info__role">CMO</h5>
+            </div>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonials__card swiper-slide">
+            <div class="testimonials__card--icons">
+              <!-- Quote -->
+              <i
+                class="testimonials__card--icons__quote fa-solid fa-quote-right"
+              ></i>
+
+              <!-- Stars -->
+              <div class="testimonials__card--icons__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <!-- Para -->
+            <p class="testimonials__card--para section__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolores molestias aut doloribus repellendus architecto tempore
+              mollitia et ipsa quasi?
+            </p>
+
+            <!-- Personal info -->
+            <div class="testimonials__card--personal-info">
+              <!-- Picture -->
+              <img
+                class="testimonials__card--personal-info__picture"
+                loading="lazy"
+                src="images/testimonials/man-2.jpg"
+                alt="man"
+              />
+
+              <!-- Name -->
+              <h4 class="testimonials__card--personal-info__name">
+                Ishaan Kumar
+              </h4>
+
+              <!-- Role -->
+              <h5 class="testimonials__card--personal-info__role">CEO</h5>
+            </div>
+          </div>
+
+          <!-- Testimonial 5 -->
+          <div class="testimonials__card swiper-slide">
+            <div class="testimonials__card--icons">
+              <!-- Quote -->
+              <i
+                class="testimonials__card--icons__quote fa-solid fa-quote-right"
+              ></i>
+
+              <!-- Stars -->
+              <div class="testimonials__card--icons__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <!-- Para -->
+            <p class="testimonials__card--para section__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolores molestias aut doloribus repellendus architecto tempore
+              mollitia et ipsa quasi?
+            </p>
+
+            <!-- Personal info -->
+            <div class="testimonials__card--personal-info">
+              <!-- Picture -->
+              <img
+                class="testimonials__card--personal-info__picture"
+                loading="lazy"
+                src="images/testimonials/woman-3.jpg"
+                alt="woman"
+              />
+
+              <!-- Name -->
+              <h4 class="testimonials__card--personal-info__name">
+                Lauren Lopez
+              </h4>
+
+              <!-- Role -->
+              <h5 class="testimonials__card--personal-info__role">CFO</h5>
+            </div>
+          </div>
+
+          <!-- Testimonial 6 -->
+          <div class="testimonials__card swiper-slide">
+            <div class="testimonials__card--icons">
+              <!-- Quote -->
+              <i
+                class="testimonials__card--icons__quote fa-solid fa-quote-right"
+              ></i>
+
+              <!-- Stars -->
+              <div class="testimonials__card--icons__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <!-- Para -->
+            <p class="testimonials__card--para section__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolores molestias aut doloribus repellendus architecto tempore
+              mollitia et ipsa quasi?
+            </p>
+
+            <!-- Personal info -->
+            <div class="testimonials__card--personal-info">
+              <!-- Picture -->
+              <img
+                class="testimonials__card--personal-info__picture"
+                loading="lazy"
+                src="images/testimonials/man-3.jpg"
+                alt="man"
+              />
+
+              <!-- Name -->
+              <h4 class="testimonials__card--personal-info__name">
+                Ethan Davis
+              </h4>
+
+              <!-- Role -->
+              <h5 class="testimonials__card--personal-info__role">CMO</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Swiper Pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Swiper navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ blog ------------------- -->
+    <section class="blog section__padding">
+      <!-- title -->
+      <h2 class="blog__title section__title">
+        Our Recent <span>Blog Posts</span>
+      </h2>
+
+      <!-- Content -->
+      <div class="blog__content">
+        <!-- Post 1 -->
+        <div class="blog__content--post">
+          <!-- Image -->
+          <img
+            loading="lazy"
+            class="blog__content--post__img"
+            src="images/blog/blog-1.jpg"
+            alt="Blog Post Image"
+          />
+
+          <!-- Author -->
+          <div class="blog__content--post__author">
+            <p>Posted by: Admin</p>
+            <p>01 June, 2022</p>
+          </div>
+
+          <!-- Description -->
+          <p class="blog__content--post__description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
+            laborum earum odio consequuntur ex repudiandae?
+          </p>
+
+          <!-- Link -->
+          <a href="#" class="blog__content--post__link section__sub-link">
+            <span>Learn More <i class="fa-solid fa-angle-right"></i></span>
+          </a>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="blog__content--post">
+          <!-- Image -->
+          <img
+            loading="lazy"
+            class="blog__content--post__img"
+            src="images/blog/blog-2.jpg"
+            alt="Blog Post Image"
+          />
+
+          <!-- Author -->
+          <div class="blog__content--post__author">
+            <p>Posted by: Admin</p>
+            <p>01 June, 2022</p>
+          </div>
+
+          <!-- Description -->
+          <p class="blog__content--post__description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
+            laborum earum odio consequuntur ex repudiandae?
+          </p>
+
+          <!-- Link -->
+          <a href="#" class="blog__content--post__link section__sub-link">
+            <span>Learn More <i class="fa-solid fa-angle-right"></i></span>
+          </a>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="blog__content--post">
+          <!-- Image -->
+          <img
+            loading="lazy"
+            class="blog__content--post__img"
+            src="images/blog/blog-3.jpg"
+            alt="Blog Post Image"
+          />
+
+          <!-- Author -->
+          <div class="blog__content--post__author">
+            <p>Posted by: Admin</p>
+            <p>01 June, 2022</p>
+          </div>
+
+          <!-- Description -->
+          <p class="blog__content--post__description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
+            laborum earum odio consequuntur ex repudiandae?
+          </p>
+
+          <!-- Link -->
+          <a href="#" class="blog__content--post__link section__sub-link">
+            <span>Learn More <i class="fa-solid fa-angle-right"></i></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ blog ------------------- -->
+    <footer class="footer section__padding">
+      <!-- Newsletter -->
+      <div class="footer__newsletter">
+        <!-- title -->
+        <h2 class="footer__newsletter--title section__title">
+          <span>Subscribe to our Newsletter,</span> get regular updates
+        </h2>
+
+        <!-- Form -->
+        <form class="footer__newsletter--form">
+          <input type="email" placeholder="Enter Email" />
+          <input type="submit" value="Subscribe" />
+        </form>
+      </div>
+
+      <!-- Main Info -->
+      <div class="footer__main-info">
+        <!-- Description -->
+        <div class="footer__main-info--description">
+          <!-- Logo -->
+          <img
+            loading="lazy"
+            class="footer__main-info--description__img"
+            src="images/header/logo-light.svg"
+            alt="logo light version"
+          />
+
+          <!-- Para -->
+          <p class="footer__main-info--description__para section__para">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+            ipsum ipsam tenetur similique mollitia tempore voluptates voluptas.
+            Ex inventore totam commodi!
+          </p>
+
+          <!-- Social -->
+          <div class="footer__main-info--description__social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer__main-info--quick-links">
+          <!-- Title -->
+          <h3 class="footer__main-info--quick-links__title">Quick Links</h3>
+
+          <!-- Links Container -->
+          <ul class="footer__main-info--quick-links__links">
+            <li class="footer__main-info--quick-links__links--link">
+              <a href="#">Road Map</a>
+            </li>
+            <li class="footer__main-info--quick-links__links--link">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="footer__main-info--quick-links__links--link">
+              <a href="#">Refund Policy</a>
+            </li>
+            <li class="footer__main-info--quick-links__links--link">
+              <a href="#">Terms of Service</a>
+            </li>
+            <li class="footer__main-info--quick-links__links--link">
+              <a href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Resources -->
+        <div class="footer__main-info--resources">
+          <!-- Title -->
+          <h3 class="footer__main-info--resources__title">Resources</h3>
+
+          <!-- Links Container -->
+          <ul class="footer__main-info--resources__links">
+            <li class="footer__main-info--resources__links--link">
+              <a href="#">Home</a>
+            </li>
+            <li class="footer__main-info--resources__links--link">
+              <a href="#">Page</a>
+            </li>
+            <li class="footer__main-info--resources__links--link">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="footer__main-info--resources__links--link">
+              <a href="#">Blog</a>
+            </li>
+            <li class="footer__main-info--resources__links--link">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact us -->
+        <div class="footer__main-info--contact">
+          <!-- Title -->
+          <h3 class="footer__main-info--contact__title">Contact Us</h3>
+
+          <!-- Links Container -->
+          <ul class="footer__main-info--contact__links">
+            <li class="footer__main-info--contact__links--link">
+              (+93) 123 4567 8900
+            </li>
+            <li class="footer__main-info--contact__links--link">el@el.cool</li>
+            <li class="footer__main-info--contact__links--link">www.el.cool</li>
+            <li class="footer__main-info--contact__links--link">
+              177A Bleecker Street <span>New York City, NY</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Author -->
+      <div class="footer__author">
+        <p>
+          &#64; 2022. All Rights Reserved. Developed by
+          <a
+            href="https://www.linkedin.com/in/evolutive-learning/"
+            target="_blank"
+            >Muslim Helalee</a
+          >. Updates by
+          <a href="https://www.colin-huber.com" target="_blank">Colin Huber</a>.
+        </p>
+      </div>
+    </footer>
+
+    <!-- ------------------------------------------------------------ JavaScript Files -->
+    <!-- Swiper js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
